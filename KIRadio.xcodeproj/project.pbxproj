@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BABE961DDA1FDA00A13CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */; };
+		20BABE981DDA1FDA00A13CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE971DDA1FDA00A13CB5 /* ViewController.swift */; };
+		20BABE9B1DDA1FDA00A13CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BABE991DDA1FDA00A13CB5 /* Main.storyboard */; };
+		20BABE9E1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE9C1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld */; };
+		20BABEA01DDA1FDA00A13CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */; };
+		20BABEA31DDA1FDA00A13CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BABEA11DDA1FDA00A13CB5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20BABE921DDA1FDA00A13CB5 /* KIRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20BABE971DDA1FDA00A13CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20BABE9A1DDA1FDA00A13CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20BABE9D1DDA1FDA00A13CB5 /* KIRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KIRadio.xcdatamodel; sourceTree = "<group>"; };
+		20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BABEA21DDA1FDA00A13CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20BABEA41DDA1FDA00A13CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BABE8F1DDA1FDA00A13CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BABE891DDA1FDA00A13CB5 = {
+			isa = PBXGroup;
+			children = (
+				20BABE941DDA1FDA00A13CB5 /* KIRadio */,
+				20BABE931DDA1FDA00A13CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20BABE931DDA1FDA00A13CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BABE921DDA1FDA00A13CB5 /* KIRadio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BABE941DDA1FDA00A13CB5 /* KIRadio */ = {
+			isa = PBXGroup;
+			children = (
+				20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */,
+				20BABE971DDA1FDA00A13CB5 /* ViewController.swift */,
+				20BABE991DDA1FDA00A13CB5 /* Main.storyboard */,
+				20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */,
+				20BABEA11DDA1FDA00A13CB5 /* LaunchScreen.storyboard */,
+				20BABEA41DDA1FDA00A13CB5 /* Info.plist */,
+				20BABE9C1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld */,
+			);
+			path = KIRadio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BABE911DDA1FDA00A13CB5 /* KIRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BABEA71DDA1FDA00A13CB5 /* Build configuration list for PBXNativeTarget "KIRadio" */;
+			buildPhases = (
+				20BABE8E1DDA1FDA00A13CB5 /* Sources */,
+				20BABE8F1DDA1FDA00A13CB5 /* Frameworks */,
+				20BABE901DDA1FDA00A13CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIRadio;
+			productName = KIRadio;
+			productReference = 20BABE921DDA1FDA00A13CB5 /* KIRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BABE8A1DDA1FDA00A13CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Khairul Islam";
+				TargetAttributes = {
+					20BABE911DDA1FDA00A13CB5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20BABE8D1DDA1FDA00A13CB5 /* Build configuration list for PBXProject "KIRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20BABE891DDA1FDA00A13CB5;
+			productRefGroup = 20BABE931DDA1FDA00A13CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BABE911DDA1FDA00A13CB5 /* KIRadio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BABE901DDA1FDA00A13CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BABEA31DDA1FDA00A13CB5 /* LaunchScreen.storyboard in Resources */,
+				20BABEA01DDA1FDA00A13CB5 /* Assets.xcassets in Resources */,
+				20BABE9B1DDA1FDA00A13CB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BABE8E1DDA1FDA00A13CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BABE981DDA1FDA00A13CB5 /* ViewController.swift in Sources */,
+				20BABE9E1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld in Sources */,
+				20BABE961DDA1FDA00A13CB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20BABE991DDA1FDA00A13CB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BABE9A1DDA1FDA00A13CB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20BABEA11DDA1FDA00A13CB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BABEA21DDA1FDA00A13CB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BABEA51DDA1FDA00A13CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20BABEA61DDA1FDA00A13CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20BABEA81DDA1FDA00A13CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khairul.KIRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20BABEA91DDA1FDA00A13CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khairul.KIRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BABE8D1DDA1FDA00A13CB5 /* Build configuration list for PBXProject "KIRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BABEA51DDA1FDA00A13CB5 /* Debug */,
+				20BABEA61DDA1FDA00A13CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BABEA71DDA1FDA00A13CB5 /* Build configuration list for PBXNativeTarget "KIRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BABEA81DDA1FDA00A13CB5 /* Debug */,
+				20BABEA91DDA1FDA00A13CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20BABE9C1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20BABE9D1DDA1FDA00A13CB5 /* KIRadio.xcdatamodel */,
+			);
+			currentVersion = 20BABE9D1DDA1FDA00A13CB5 /* KIRadio.xcdatamodel */;
+			path = KIRadio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20BABE8A1DDA1FDA00A13CB5 /* Project object */;
+}
