@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206D82AD1DDEBE6700B2B454 /* StationCountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D82AC1DDEBE6700B2B454 /* StationCountryModel.swift */; };
+		2077D8971DDB4DC40018D7F0 /* StationBasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D8961DDB4DC40018D7F0 /* StationBasicModel.swift */; };
+		2077D8991DDB51990018D7F0 /* StationImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D8981DDB51990018D7F0 /* StationImageModel.swift */; };
+		2077D89B1DDB5BA60018D7F0 /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D89A1DDB5BA60018D7F0 /* StationModel.swift */; };
+		2077D89D1DDB71830018D7F0 /* StationStreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D89C1DDB71830018D7F0 /* StationStreamModel.swift */; };
+		2077D89F1DDB751E0018D7F0 /* StationCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D89E1DDB751E0018D7F0 /* StationCategoryModel.swift */; };
+		2077D8A11DDB77890018D7F0 /* StationContinentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077D8A01DDB77890018D7F0 /* StationContinentModel.swift */; };
 		20BABE961DDA1FDA00A13CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */; };
 		20BABE981DDA1FDA00A13CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE971DDA1FDA00A13CB5 /* ViewController.swift */; };
 		20BABE9B1DDA1FDA00A13CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BABE991DDA1FDA00A13CB5 /* Main.storyboard */; };
 		20BABE9E1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BABE9C1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld */; };
 		20BABEA01DDA1FDA00A13CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */; };
 		20BABEA31DDA1FDA00A13CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BABEA11DDA1FDA00A13CB5 /* LaunchScreen.storyboard */; };
+		7F09F9FC2E5679630D2A1ECD /* Pods_KIRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54888305C2A985241C4B7A82 /* Pods_KIRadio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013E1E26384DA373A1EB8C41 /* Pods-KIRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIRadio.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIRadio/Pods-KIRadio.release.xcconfig"; sourceTree = "<group>"; };
+		206D82AC1DDEBE6700B2B454 /* StationCountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationCountryModel.swift; sourceTree = "<group>"; };
+		2077D8961DDB4DC40018D7F0 /* StationBasicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationBasicModel.swift; sourceTree = "<group>"; };
+		2077D8981DDB51990018D7F0 /* StationImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationImageModel.swift; sourceTree = "<group>"; };
+		2077D89A1DDB5BA60018D7F0 /* StationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		2077D89C1DDB71830018D7F0 /* StationStreamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStreamModel.swift; sourceTree = "<group>"; };
+		2077D89E1DDB751E0018D7F0 /* StationCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationCategoryModel.swift; sourceTree = "<group>"; };
+		2077D8A01DDB77890018D7F0 /* StationContinentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationContinentModel.swift; sourceTree = "<group>"; };
 		20BABE921DDA1FDA00A13CB5 /* KIRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20BABE971DDA1FDA00A13CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BABEA21DDA1FDA00A13CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20BABEA41DDA1FDA00A13CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54888305C2A985241C4B7A82 /* Pods_KIRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5C9363311569C3D853471B /* Pods-KIRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIRadio/Pods-KIRadio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F09F9FC2E5679630D2A1ECD /* Pods_KIRadio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B6083040EE1505E999FD90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54888305C2A985241C4B7A82 /* Pods_KIRadio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20BABE891DDA1FDA00A13CB5 = {
 			isa = PBXGroup;
 			children = (
 				20BABE941DDA1FDA00A13CB5 /* KIRadio */,
 				20BABE931DDA1FDA00A13CB5 /* Products */,
+				DD5C870977935B157E681D68 /* Pods */,
+				07B6083040EE1505E999FD90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,13 @@
 			children = (
 				20BABE951DDA1FDA00A13CB5 /* AppDelegate.swift */,
 				20BABE971DDA1FDA00A13CB5 /* ViewController.swift */,
+				2077D8961DDB4DC40018D7F0 /* StationBasicModel.swift */,
+				2077D89A1DDB5BA60018D7F0 /* StationModel.swift */,
+				2077D89C1DDB71830018D7F0 /* StationStreamModel.swift */,
+				2077D89E1DDB751E0018D7F0 /* StationCategoryModel.swift */,
+				2077D8981DDB51990018D7F0 /* StationImageModel.swift */,
+				2077D8A01DDB77890018D7F0 /* StationContinentModel.swift */,
+				206D82AC1DDEBE6700B2B454 /* StationCountryModel.swift */,
 				20BABE991DDA1FDA00A13CB5 /* Main.storyboard */,
 				20BABE9F1DDA1FDA00A13CB5 /* Assets.xcassets */,
 				20BABEA11DDA1FDA00A13CB5 /* LaunchScreen.storyboard */,
@@ -67,6 +103,15 @@
 			path = KIRadio;
 			sourceTree = "<group>";
 		};
+		DD5C870977935B157E681D68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C9363311569C3D853471B /* Pods-KIRadio.debug.xcconfig */,
+				013E1E26384DA373A1EB8C41 /* Pods-KIRadio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20BABEA71DDA1FDA00A13CB5 /* Build configuration list for PBXNativeTarget "KIRadio" */;
 			buildPhases = (
+				0736DD9ED1CCA72D626017FD /* [CP] Check Pods Manifest.lock */,
 				20BABE8E1DDA1FDA00A13CB5 /* Sources */,
 				20BABE8F1DDA1FDA00A13CB5 /* Frameworks */,
 				20BABE901DDA1FDA00A13CB5 /* Resources */,
+				7EFAA6B89B28F79E09BD3CDA /* [CP] Embed Pods Frameworks */,
+				5635D6FE978190F6F772F513 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +182,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0736DD9ED1CCA72D626017FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5635D6FE978190F6F772F513 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIRadio/Pods-KIRadio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EFAA6B89B28F79E09BD3CDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIRadio/Pods-KIRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20BABE8E1DDA1FDA00A13CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20BABE981DDA1FDA00A13CB5 /* ViewController.swift in Sources */,
+				2077D8A11DDB77890018D7F0 /* StationContinentModel.swift in Sources */,
 				20BABE9E1DDA1FDA00A13CB5 /* KIRadio.xcdatamodeld in Sources */,
+				2077D89D1DDB71830018D7F0 /* StationStreamModel.swift in Sources */,
+				2077D8991DDB51990018D7F0 /* StationImageModel.swift in Sources */,
 				20BABE961DDA1FDA00A13CB5 /* AppDelegate.swift in Sources */,
+				2077D89B1DDB5BA60018D7F0 /* StationModel.swift in Sources */,
+				206D82AD1DDEBE6700B2B454 /* StationCountryModel.swift in Sources */,
+				2077D89F1DDB751E0018D7F0 /* StationCategoryModel.swift in Sources */,
+				2077D8971DDB4DC40018D7F0 /* StationBasicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +365,7 @@
 		};
 		20BABEA81DDA1FDA00A13CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5C9363311569C3D853471B /* Pods-KIRadio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KIRadio/Info.plist;
@@ -274,6 +378,7 @@
 		};
 		20BABEA91DDA1FDA00A13CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013E1E26384DA373A1EB8C41 /* Pods-KIRadio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KIRadio/Info.plist;
@@ -303,6 +408,7 @@
 				20BABEA91DDA1FDA00A13CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
