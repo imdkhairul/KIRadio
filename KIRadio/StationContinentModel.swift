@@ -22,15 +22,14 @@ class StationContinentModel: NSObject {
     
     init(stationDictionary:NSDictionary) {
         
-        if stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStationContinetidKey) != nil {
-            self.continentid = stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStationContinetidKey) as? NSString
+        if let continentID = stationDictionary[StaionContinentDictionaryKeys.kStationContinetidKey] as? NSString {
+            self.continentid = continentID
         }
-        
-        if stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStationContinetidKey) != nil {
-            self.name = stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStationContinentNameKey) as? NSString
+        if let naMe = stationDictionary[StaionContinentDictionaryKeys.kStationContinetidKey] {
+            self.name = naMe as? NSString
         }
-        if stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStaionContinentSlugKey) != nil {
-            self.slug = stationDictionary.object(forKey:StaionContinentDictionaryKeys.kStaionContinentSlugKey) as? NSString
+        if let sLug = stationDictionary[StaionContinentDictionaryKeys.kStaionContinentSlugKey] as? NSString{
+            self.slug = sLug
         }
     }
     

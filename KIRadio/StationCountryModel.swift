@@ -22,9 +22,17 @@ class StationCountryModel: NSObject {
     var subRegion:NSString?
     
     init(dictionary:NSDictionary) {
-        if dictionary.object(forKey: StationCountryDictionaryKeys.kStationCountrynameKey) != nil {
-            let countryname = dictionary.object(forKey: StationCountryDictionaryKeys.kStationCountrynameKey) as! NSString
+        if let countryname = dictionary[StationCountryDictionaryKeys.kStationCountrynameKey] as? NSString{
             self.countryName = countryname
+        }
+        if let countrycode = dictionary[StationCountryDictionaryKeys.kStationCountryCodeKey] as? NSString {
+            self.countryCode = countrycode
+        }
+        if let countryregion = dictionary[StationCountryDictionaryKeys.kStationregionKey] as? NSString {
+            self.region = countryregion
+        }
+        if let countrysubregion = dictionary[StationCountryDictionaryKeys.kStationsubregionKey] as? NSString {
+            self.subRegion = countrysubregion
         }
     }
     

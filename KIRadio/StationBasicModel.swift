@@ -50,32 +50,32 @@ class StationBasicModel: NSObject {
     }
     
     init(dictionary:NSDictionary) {
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelidKey) != nil {
-            self.id = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelidKey) as? NSString
+        if let idstring = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelidKey] as? NSString{
+            self.id = idstring
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelNameKey) != nil {
-            self.name = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelNameKey) as? NSString
+        if let nameString = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelNameKey] as? NSString {
+            self.name = nameString
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelCountryKey) != nil {
-            self.country = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelCountryKey) as? NSString
+        if let countryString = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelCountryKey] as? NSString{
+            self.country = countryString
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelWebsiteKey) != nil {
-            self.website = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelWebsiteKey) as? NSString
+        if let webSite = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelWebsiteKey] as? NSString {
+            self.website = webSite
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelcreatedatKey) != nil {
-            self.createdAt = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelcreatedatKey) as? NSString
+        if let createdat = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelcreatedatKey] as? NSString {
+            self.createdAt = createdat
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelupdatedKey) != nil {
-            self.updatedAt = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelupdatedKey) as? NSString
+        if let updatedat = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelupdatedKey] as? NSString {
+            self.updatedAt = updatedat
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelslugKey) != nil {
-            self.slug = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelslugKey) as? NSString
+        if let sluG = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelslugKey] as? NSString {
+            self.slug = sluG
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelFacebookKey) != nil {
-            self.facebookUrl = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelFacebookKey) as? NSString
+        if let facebookurl = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelFacebookKey] as? NSString{
+            self.facebookUrl = facebookurl
         }
-        if dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelTwitterKey) != nil {
-            self.twitterUrl = dictionary.object(forKey: StationBasicModelDictionaryKeys.kStationBasicModelTwitterKey) as? NSString
+        if let twitterurl = dictionary[StationBasicModelDictionaryKeys.kStationBasicModelTwitterKey] as? NSString{
+            self.twitterUrl = twitterurl
         }
         self.stationImageModel = StationImageModel(dictionary: dictionary)
     }

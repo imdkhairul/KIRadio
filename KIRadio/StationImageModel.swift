@@ -20,21 +20,13 @@ class StationImageModel: NSObject {
     
     init(dictionary:NSDictionary) {
         
-        if dictionary.object(forKey:ImageDictionaryKeys.kImageDictionaryKey) != nil {
-            let imageDictionary:NSDictionary = dictionary.object(forKey:ImageDictionaryKeys.kImageDictionaryKey) as! NSDictionary
-            
-            if imageDictionary.object(forKey: ImageDictionaryKeys.kImageUrlKey) != nil {
-                let imageUrl:NSString = imageDictionary.object(forKey: ImageDictionaryKeys.kImageUrlKey) as! NSString
+        if let imageDictionary = dictionary[ImageDictionaryKeys.kImageDictionaryKey] as? NSDictionary {            
+            if let imageUrl = imageDictionary[ImageDictionaryKeys.kImageUrlKey] as? String {
                 self.originalImageUrl = NSURL.init(fileURLWithPath:imageUrl as String)
             }
-            
-            if imageDictionary.object(forKey: ImageDictionaryKeys.kImageThumbKey) != nil {
-                let thumbImageDictionary:NSDictionary = imageDictionary.object(forKey: ImageDictionaryKeys.kImageThumbKey) as! NSDictionary
-                if thumbImageDictionary.object(forKey: ImageDictionaryKeys.kImageUrlKey) != nil {
-                    
-                let thumbimageurl:NSString = imageDictionary.object(forKey: ImageDictionaryKeys.kImageUrlKey) as! NSString
-                self.thumbImageUrl = NSURL.init(fileURLWithPath:thumbimageurl as String)
-                    
+            if let thumbImageDictionary = imageDictionary[ImageDictionaryKeys.kImageThumbKey] as? NSDictionary{
+                if let thumbimageurl = thumbImageDictionary[ImageDictionaryKeys.kImageUrlKey] as? String{
+                    self.thumbImageUrl = NSURL.init(fileURLWithPath:thumbimageurl as String)
                 }
             }
         }

@@ -32,20 +32,20 @@ class StationCategoryModel: NSObject {
     }
     
     init(dictionary:NSDictionary) {
-        if dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryIdKey) != nil{
-            self.categoryID = dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryIdKey) as? NSString
+        if let categoryid = dictionary[StationCategoryDictionaryKeys.kStationCategoryDictionaryIdKey] as? NSString{
+            self.categoryID = categoryid
         }
-        if dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryTitleKey) != nil{
-            self.categoryName = dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryTitleKey) as? NSString
+        if let categoryname = dictionary[StationCategoryDictionaryKeys.kStationCategoryDictionaryTitleKey] as? NSString{
+            self.categoryName = categoryname
         }
-        if dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryDescriptionKey) != nil{
-            self.categoryDescription = dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryDescriptionKey) as? NSString
+        if let categorydescription = dictionary[StationCategoryDictionaryKeys.kStationCategoryDictionaryDescriptionKey] as? NSString{
+            self.categoryDescription = categorydescription
         }
-        if dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionarySlugKey) != nil{
-            self.slug = dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionarySlugKey) as? NSString
+        if let sLug = dictionary[StationCategoryDictionaryKeys.kStationCategoryDictionarySlugKey] as? NSString{
+            self.slug = sLug
         }
-        if dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryAncestryKey) != nil{
-            self.andcestry = dictionary.object(forKey: StationCategoryDictionaryKeys.kStationCategoryDictionaryAncestryKey) as? NSString
+        if let andcesTry = dictionary[StationCategoryDictionaryKeys.kStationCategoryDictionaryAncestryKey] as? NSString{
+            self.andcestry = andcesTry
         }
     }
 }

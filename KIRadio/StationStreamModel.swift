@@ -21,17 +21,17 @@ class StationStreamModel: NSObject {
     var status:NSString?
     
     init(dictionary:NSDictionary) {
-        if dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryStreamKey) != nil{
-            self.streamUrl = dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryStreamKey) as? NSString
+        if let streamurl = dictionary[StationStreamDictionaryKeys.kStreamDictionaryStreamKey] as? NSString{
+            self.streamUrl = streamurl
         }
-        if dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryBitrateKey) != nil {
-            self.bitRate = dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryBitrateKey) as? NSString
+        if let bitrate = dictionary[StationStreamDictionaryKeys.kStreamDictionaryBitrateKey] as? NSString {
+            self.bitRate = bitrate
         }
-        if dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryContentTypeKey) != nil {
-            self.contentType = dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryContentTypeKey) as? NSString
+        if let contenttype = dictionary[StationStreamDictionaryKeys.kStreamDictionaryContentTypeKey] as? NSString {
+            self.contentType = contenttype
         }
-        if dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryStatusKey) != nil {
-            self.status = dictionary.object(forKey: StationStreamDictionaryKeys.kStreamDictionaryStatusKey) as? NSString
+        if let staTus = dictionary[StationStreamDictionaryKeys.kStreamDictionaryStatusKey] as? NSString {
+            self.status = staTus
         }
     }
 }
